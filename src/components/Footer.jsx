@@ -20,7 +20,7 @@ export default class Footer extends Component {
             <div className="wrap-sosmed">
               {this.state.data.map((sosmed) => {
                 return (
-                  <a href={sosmed.link} className="sosmed" title={sosmed.title} target="_blank">
+                  <a href={sosmed.link} className="sosmed" title={sosmed.title} target="_blank" rel="noreferrer noopener">
                     <i className={sosmed.classIcon}></i>
                   </a>
                 );

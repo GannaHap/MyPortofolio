@@ -19,7 +19,7 @@ export default class Experiences extends Component {
                   <h2>{card.title}</h2>
                   <img src={card.srcImg} alt={card.title} />
                   <div className="see-certificate">
-                    <a href={card.link} target="_blank">
+                    <a href={card.link} target="_blank" rel="noreferrer noopener">
                       Lihat Detailnya
                     </a>
                   </div>

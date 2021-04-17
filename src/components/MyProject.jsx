@@ -18,7 +18,7 @@ export default class MyProject extends Component {
                 <div className="card-project" key={index}>
                   <img src={card.srcImg} alt="Project 1" />
                   <div className="detail-card">
-                    <a href={card.link} target="_blank" title={card.title}>
+                    <a href={card.link} target="_blank" title={card.title} rel="noreferrer noopener">
                       {card.title}
                     </a>
                   </div>
