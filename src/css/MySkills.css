@@ -1,0 +1,116 @@
+section#skills {
+  padding-top: 5rem;
+  background-color: rgb(205, 199, 247);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-icon-skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.icon-lang {
+  width: max-content;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bar-lang {
+  height: 7px;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+}
+
+/* Color Icon Language */
+.html5 {
+  color: rgb(221, 75, 37);
+}
+
+.css3 {
+  color: rgb(37, 75, 221);
+}
+
+.bootstrap {
+  color: rgb(120, 16, 241);
+}
+
+.sass {
+  color: rgb(199, 99, 149);
+}
+
+.js {
+  color: rgb(221, 156, 37);
+}
+
+.reactjs {
+  color: rgb(11, 193, 247);
+}
+
+.php {
+  color: rgb(115, 119, 173);
+}
+
+/* JS Persentase */
+.html5-persentase {
+  height: 7px;
+  width: 80%;
+  background-color: rgb(221, 75, 37);
+}
+
+.css3-persentase {
+  height: 7px;
+  width: 70%;
+  background-color: rgb(37, 75, 221);
+}
+
+.bootstrap-persentase {
+  height: 7px;
+  width: 75%;
+  background-color: rgb(120, 16, 241);
+}
+
+.sass-persentase {
+  height: 7px;
+  width: 30%;
+  background-color: rgb(199, 99, 149);
+}
+
+.js-persentase {
+  height: 7px;
+  width: 66%;
+  background-color: rgb(221, 156, 37);
+}
+
+.reactjs-persentase {
+  height: 7px;
+  width: 35%;
+  background-color: rgb(11, 193, 247);
+}
+
+.php-persentase {
+  height: 7px;
+  width: 10%;
+  background-color: rgb(115, 119, 173);
+}
+
+.section-bottom {
+  margin-top: 60px;
+}
+
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}

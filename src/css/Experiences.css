@@ -1,0 +1,71 @@
+section#experiences {
+  padding-top: 5rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-certificates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card-certificate {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 0.5em 0.5em 1.2em;
+  border-radius: 10px;
+  background-color: rgb(234, 226, 255);
+  position: relative;
+}
+
+.card-certificate h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.card-certificate img {
+  width: 80%;
+}
+
+.see-certificate {
+  display: none;
+}
+
+.see-certificate a {
+  background-color: rgb(94, 51, 145);
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 7px;
+}
+
+.card-certificate:hover .see-certificate {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-certificate a:hover {
+  background-color: rgb(74, 40, 114);
+}
+
+@media screen and (max-width: 480px) {
+  .card-certificate {
+    width: 95%;
+  }
+}

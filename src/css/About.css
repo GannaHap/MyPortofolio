@@ -1,0 +1,12 @@
+section#about {
+  padding-top: 5rem;
+  background-color: rgb(205, 199, 247);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container p {
+  letter-spacing: 1px;
+  line-height: 24px;
+}

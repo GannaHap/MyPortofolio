@@ -1,0 +1,42 @@
+section#project {
+  padding-top: 5rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-card-project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card-project {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(205, 199, 247);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.detail-card {
+  padding: 0.4em;
+}
+
+.detail-card a {
+  font-weight: 500;
+  color: rgb(49, 20, 82);
+}
+
+.detail-card a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .card-project {
+    width: 95%;
+  }
+}

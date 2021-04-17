@@ -1,0 +1,89 @@
+footer {
+  text-align: center;
+  background-color: #07041f;
+  padding: 1em 2.4em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-side-left {
+  width: 300px;
+  text-align: left;
+}
+
+.footer-side-left p {
+  margin-top: 15px;
+  word-spacing: 2px;
+}
+
+.footer-side-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.wrap-sosmed {
+  display: flex;
+  gap: 20px;
+}
+
+a.sosmed i {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.fab.fa-github:hover {
+  color: #1d2024;
+}
+
+.fab.fa-telegram-plane:hover {
+  color: #27a7e5;
+}
+
+.fab.fa-whatsapp:hover {
+  color: #06d755;
+}
+
+.fab.fa-facebook:hover {
+  color: #0d5ec0;
+}
+
+.fab.fa-instagram:hover {
+  color: #e53366;
+}
+
+@media screen and (max-width: 676px) {
+  footer {
+    padding: 1em;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 15px;
+  }
+
+  .footer-side-right {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer-side-left {
+    width: 95%;
+  }
+
+  .wrap-sosmed {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

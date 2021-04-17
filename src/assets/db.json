@@ -1,0 +1,39 @@
+{
+  "navbar": [
+    { "name": "Beranda", "link": "#home" },
+    { "name": "Tentang Saya", "link": "#about" },
+    { "name": "Project", "link": "#project" },
+    { "name": "Kemampuan", "link": "#skills" },
+    { "name": "Pengalaman", "link": "#experiences" }
+  ],
+  "about": {
+    "desc": "Halo... Saya seorang freshgraduate yang memiliki kemampuan dan ketertarikan belajar dalam hal programming web. Mulai mengenal pemrograman waktu masih kelas satu SMK. Saat itu, ada mata pelajaran Pemrograman Dasar. Dari situlah mulai tertarik tentang pemrograman. Namun, karena terkendala belum punya laptop jadi saya tidak mempelajari lebih dalam. September 2020 saya mulai mempelajari lebih dalam tentang pemrograman. Setiap hari saya belajar dan berlatih pemrograman dengan waktu rata-rata 8 jam per hari. Hasilnya saya sudah membuat beberapa program sederhana yang sudah saya Upload di Github saya."
+  },
+  "myProject": [
+    { "title": "Data COVID-19", "srcImg": "/img/projects/data-covid.png", "link": "https://covid-19-gules.vercel.app/" },
+    { "title": "Belajar", "srcImg": "/img/projects/belajar.png", "link": "https://bit.ly/3lWi11E" },
+    { "title": "Face-Recognition", "srcImg": "/img/projects/face-recognition.png", "link": "https://bit.ly/3cMvZPE" },
+    { "title": "ArtPicts - Login Page", "srcImg": "/img/projects/art-picts.png", "link": "https://bit.ly/3rHEnVV" },
+    { "title": "NK-Perabot", "srcImg": "/img/projects/nk-perabot.png", "link": "https://bit.ly/3184FG1" }
+  ],
+  "mySkills": [
+    { "title": "HTML", "spanClass": "icon-lang html5", "iconLang": "fab fa-html5", "percentLang": "html5-persentase" },
+    { "title": "CSS", "spanClass": "icon-lang css3", "iconLang": "fab fa-css3-alt", "percentLang": "css3-persentase" },
+    { "title": "Bootstrap", "spanClass": "icon-lang bootstrap", "iconLang": "fab fa-bootstrap", "percentLang": "bootstrap-persentase" },
+    { "title": "SASS", "spanClass": "icon-lang sass", "iconLang": "fab fa-sass", "percentLang": "sass-persentase" },
+    { "title": "JavaScript", "spanClass": "icon-lang js", "iconLang": "fab fa-js-square", "percentLang": "js-persentase" },
+    { "title": "ReactJS", "spanClass": "icon-lang reactjs", "iconLang": "fab fa-react", "percentLang": "reactjs-persentase" },
+    { "title": "PHP", "spanClass": "icon-lang php", "iconLang": "fab fa-php", "percentLang": "php-persentase" }
+  ],
+  "experiences": [
+    { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/img/sertificates/Dicoding-Basic-Programming.png", "link": "https://bit.ly/3mUz2tG" },
+    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/img/sertificates/Dicoding-Python.png", "link": "https://bit.ly/32kpWwL" }
+  ],
+  "footer": [
+    { "title": "My Github", "classIcon": "fab fa-github", "link": "https://github.com/GannaHap" },
+    { "title": "My WhatsApp", "classIcon": "fab fa-whatsapp", "link": "https://wa.me/6289506125049" },
+    { "title": "My Instagram", "classIcon": "fab fa-instagram", "link": "https://www.instagram.com/ganna_prasetya" },
+    { "title": "My Facebook", "classIcon": "fab fa-facebook", "link": "https://www.facebook.com/ganna_gilang" },
+    { "title": "My Telegram", "classIcon": "fab fa-telegram-plane", "link": "https://t.me/GannaHap" }
+  ]
+}

@@ -1,0 +1,115 @@
+nav {
+  height: 80px;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  transition: 0.5s all ease;
+  opacity: 1;
+}
+
+nav.show {
+  background-color: #07041f;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.icon i {
+  font-size: 1.5rem;
+}
+
+ul.menu {
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul.menu a {
+  padding: 0.5em 1.5em;
+  color: white;
+}
+
+ul.menu a:hover {
+  border-radius: 4px;
+  background-color: rgb(26, 23, 48);
+  transition: 0.3s all ease-out;
+}
+
+/* Menu Icons (Hamburger Menu) */
+.menu-icon {
+  display: none;
+}
+
+/* Breakpoints 1150px */
+@media screen and (max-width: 1150px) {
+  ul.menu {
+    width: 40vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    right: -100%;
+    transition: 1s all ease;
+    background-color: rgb(7, 4, 31);
+    opacity: 0;
+  }
+
+  ul.menu.active {
+    width: 40vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    right: 0%;
+    transition: 1s all ease;
+    opacity: 1;
+  }
+
+  ul.menu a {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  ul.menu.active a {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .menu-icon {
+    font-size: 1.5rem;
+    display: block;
+  }
+
+  .menu-icon i {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1em 2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 1em 1.2em;
+  }
+}
