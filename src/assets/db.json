@@ -27,7 +27,8 @@
   ],
   "experiences": [
     { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/img/sertificates/Dicoding-Basic-Programming.png", "link": "https://bit.ly/3mUz2tG" },
-    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/img/sertificates/Dicoding-Python.png", "link": "https://bit.ly/32kpWwL" }
+    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/img/sertificates/Dicoding-Python.png", "link": "https://bit.ly/32kpWwL" },
+    { "title": "Belajar Dasar Pemrograman JavaScript", "srcImg": "/img/sertificates/Dicoding-Javascript.png", "link": "https://bit.ly/3tu3ux7" }
   ],
   "footer": [
     { "title": "My Github", "classIcon": "fab fa-github", "link": "https://github.com/GannaHap" },
