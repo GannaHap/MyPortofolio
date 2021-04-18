@@ -33,7 +33,7 @@
     { "title": "My Github", "classIcon": "fab fa-github", "link": "https://github.com/GannaHap" },
     { "title": "My WhatsApp", "classIcon": "fab fa-whatsapp", "link": "https://wa.me/6289506125049" },
     { "title": "My Instagram", "classIcon": "fab fa-instagram", "link": "https://www.instagram.com/ganna_prasetya" },
-    { "title": "My Facebook", "classIcon": "fab fa-facebook", "link": "https://www.facebook.com/ganna_gilang" },
+    { "title": "My Facebook", "classIcon": "fab fa-facebook", "link": "https://www.facebook.com/ganna.gilang" },
     { "title": "My Telegram", "classIcon": "fab fa-telegram-plane", "link": "https://t.me/GannaHap" }
   ]
 }
