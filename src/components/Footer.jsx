@@ -18,9 +18,9 @@ export default class Footer extends Component {
           <div className="footer-side-right">
             <h4>Kontak Saya</h4>
             <div className="wrap-sosmed">
-              {this.state.data.map((sosmed) => {
+              {this.state.data.map((sosmed, index) => {
                 return (
-                  <a href={sosmed.link} className="sosmed" title={sosmed.title} target="_blank" rel="noreferrer noopener">
+                  <a href={sosmed.link} className="sosmed" title={sosmed.title} target="_blank" rel="noreferrer noopener" key={index}>
                     <i className={sosmed.classIcon}></i>
                   </a>
                 );
