@@ -1,7 +1,6 @@
 {
   "dashboard": {
     "imgProfile": "/assets/me-dashboard.png",
-    "desc": "Saya memiliki kemampuan dan ketertarikan belajar dalam hal programming web. Mulai mengenal pemrograman waktu masih kelas satu SMK. Saat itu, ada mata pelajaran Pemrograman Dasar. Dari situlah mulai tertarik tentang pemrograman. Namun, karena terkendala belum punya laptop jadi saya tidak mempelajari lebih dalam. September 2020 saya mulai mempelajari lebih dalam tentang pemrograman. Setiap hari saya belajar dan berlatih pemrograman dengan waktu rata-rata 8 jam per hari.",
     "sosmed": [
       { "title": "Facebook", "link": "https://web.facebook.com/ganna.gilang/", "icon": "fab fa-facebook" },
       { "title": "Instagram", "link": "https://www.instagram.com/ganna_prasetya/", "icon": "fab fa-instagram" },
@@ -28,11 +27,11 @@
     { "iconLang": "/assets/img/skills/postman.png", "title": "Postman" }
   ],
   "sertificates": [
-    { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/assets/img/sertificates/Dicoding-Basic-Programming.jpg", "link": "https://bit.ly/3mUz2tG" },
-    { "title": "Front End Web untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Front-End-Web-untuk-Pemula.jpg", "link": "https://bit.ly/3it3s61" },
-    { "title": "Belajar Membuat Aplikasi Back-End untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Back-End-untuk-Pemula.jpg", "link": "https://bit.ly/3v0DDgs" },
-    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/assets/img/sertificates/Dicoding-Python.jpg", "link": "https://bit.ly/32kpWwL" },
-    { "title": "Belajar Dasar Pemrograman JavaScript", "srcImg": "/assets/img/sertificates/Dicoding-Javascript.jpg", "link": "https://bit.ly/3tu3ux7" }
+    { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/assets/img/sertificates/Dicoding-Basic-Programming.jpg", "link": "https://bit.ly/3mUz2tG", "publisher": "Dicoding" },
+    { "title": "Belajar Membuat Front-End Web untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Front-End-Web-untuk-Pemula.jpg", "link": "https://bit.ly/3it3s61", "publisher": "Dicoding" },
+    { "title": "Belajar Membuat Aplikasi Back-End untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Back-End-untuk-Pemula.jpg", "link": "https://bit.ly/3v0DDgs", "publisher": "Dicoding" },
+    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/assets/img/sertificates/Dicoding-Python.jpg", "link": "https://bit.ly/32kpWwL", "publisher": "Dicoding" },
+    { "title": "Belajar Dasar Pemrograman JavaScript", "srcImg": "/assets/img/sertificates/Dicoding-Javascript.jpg", "link": "https://bit.ly/3tu3ux7", "publisher": "Dicoding" }
   ],
   "contact": [
     { "title": "Gmail", "classIcon": "fal fa-envelope", "link": "https://t.me/GannaHap" },

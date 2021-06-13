@@ -11,7 +11,11 @@ body {
   background-color: #f1f1f1;
 }
 
+body.stuck {
+  overflow: hidden;
+}
+
 /* width */
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 0px;
 }
