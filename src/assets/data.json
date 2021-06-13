@@ -28,11 +28,11 @@
     { "iconLang": "/assets/img/skills/postman.png", "title": "Postman" }
   ],
   "sertificates": [
-    { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/assets/img/sertificates/Dicoding-Basic-Programming.png", "link": "https://bit.ly/3mUz2tG" },
+    { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/assets/img/sertificates/Dicoding-Basic-Programming.PNG", "link": "https://bit.ly/3mUz2tG" },
     { "title": "Front End Web untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Front-End-Web-untuk-Pemula.PNG", "link": "https://bit.ly/3it3s61" },
     { "title": "Belajar Membuat Aplikasi Back-End untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Back-End-untuk-Pemula.PNG", "link": "https://bit.ly/3v0DDgs" },
-    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/assets/img/sertificates/Dicoding-Python.png", "link": "https://bit.ly/32kpWwL" },
-    { "title": "Belajar Dasar Pemrograman JavaScript", "srcImg": "/assets/img/sertificates/Dicoding-Javascript.png", "link": "https://bit.ly/3tu3ux7" }
+    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/assets/img/sertificates/Dicoding-Python.PNG", "link": "https://bit.ly/32kpWwL" },
+    { "title": "Belajar Dasar Pemrograman JavaScript", "srcImg": "/assets/img/sertificates/Dicoding-Javascript.PNG", "link": "https://bit.ly/3tu3ux7" }
   ],
   "contact": [
     { "title": "Gmail", "classIcon": "fal fa-envelope", "link": "https://t.me/GannaHap" },
