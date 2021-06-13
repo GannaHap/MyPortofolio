@@ -1,25 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './views/Dashboard/Dashboard';
+import Skills from './views/Skills/Skills';
+import MyProjects from './views/MyProjects/MyProjects';
+import Navigation from './components/Navigation/Navigation';
+import dataJSON from './assets/data.json';
+import { connect } from 'react-redux';
+import NavigationSide from './components/NavigationSide/NavigationSide';
+import Sertificates from './views/Sertificates/Sertificates';
+import Contact from './views/Contact/Contact';
 
-function App() {
+const switchDisplay = (display) => {
+  switch (display) {
+    case 'Dashboard':
+      return <Dashboard data={dataJSON.dashboard} />;
+    case 'Skills':
+      return <Skills data={dataJSON.mySkills} />;
+    case 'MyProjects':
+      return <MyProjects data={dataJSON.myProject} />;
+    case 'Sertificates':
+      return <Sertificates data={dataJSON.sertificates} />;
+    case 'Contact':
+      return <Contact data={dataJSON.contact} />;
+
+    default:
+      <p>Kosong</p>;
+  }
+};
+
+function App({ display }) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <NavigationSide />
+      {switchDisplay(display)}
     </div>
   );
 }
 
-export default App;
+const reduxState = (state) => {
+  return {
+    display: state.display,
+  };
+};
+
+export default connect(reduxState)(App);

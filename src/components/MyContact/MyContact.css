@@ -1,0 +1,83 @@
+@keyframes animationIcon {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.my-contact {
+  height: max-content;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px rgba(99, 99, 99, 0.2);
+  position: relative;
+  box-sizing: border-box;
+  padding: 1em 0;
+}
+
+.my-contact img {
+  width: 125px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.my-contact img:hover {
+  top: -45px;
+}
+
+.contact-sosmed {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+.contact-sosmed a {
+  font-size: 1.7rem;
+  padding: 0 0.2em;
+  text-decoration: none;
+}
+
+.contact-sosmed a:hover {
+  animation: animationIcon 1.5s ease infinite;
+}
+
+.contact-sosmed a i {
+  color: #2f65e4;
+}
+
+.my-contact h5 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.my-contact p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h5.school {
+  margin-top: 30px;
+}
+
+p.major {
+  font-size: 14px;
+  font-style: italic;
+}

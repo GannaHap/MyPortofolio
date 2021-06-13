@@ -1,0 +1,15 @@
+.background-board {
+  min-height: 60vh;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  left: 240px;
+  right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 960px) {
+  .background-board {
+    left: 0;
+  }
+}

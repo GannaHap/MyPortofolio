@@ -1,0 +1,98 @@
+.navigation {
+  display: none;
+}
+
+.logo {
+  width: 40px;
+}
+
+.header-navigation h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* List Menu */
+
+.list {
+  padding: 0.6em 1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.list.active {
+  border-left: 3px solid #2052c9;
+}
+
+.list:hover p {
+  color: #000;
+}
+
+.list i {
+  width: 20px;
+  text-align: center;
+  color: #2052c9;
+}
+
+.list p {
+  color: rgb(77, 77, 77);
+}
+
+.navigation hr {
+  width: 80%;
+  margin: 20px auto;
+  border-top: 1px solid #d3d3d3;
+}
+
+/* Header Navigation */
+.header-navigation i {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .navigation {
+    display: none;
+    position: fixed;
+    width: 94%;
+    background-color: #fff;
+    top: 20px;
+    height: 70vh;
+    left: 3%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1em 0;
+    opacity: 0;
+    z-index: 10;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    margin-bottom: 30px;
+  }
+
+  .title-navigation {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-navigation i {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+  }
+
+  .navigation hr {
+    width: 90%;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "dashboard": {
+    "imgProfile": "/assets/me-dashboard.png",
+    "desc": "Saya memiliki kemampuan dan ketertarikan belajar dalam hal programming web. Mulai mengenal pemrograman waktu masih kelas satu SMK. Saat itu, ada mata pelajaran Pemrograman Dasar. Dari situlah mulai tertarik tentang pemrograman. Namun, karena terkendala belum punya laptop jadi saya tidak mempelajari lebih dalam. September 2020 saya mulai mempelajari lebih dalam tentang pemrograman. Setiap hari saya belajar dan berlatih pemrograman dengan waktu rata-rata 8 jam per hari.",
+    "sosmed": [
+      { "title": "Facebook", "link": "https://web.facebook.com/ganna.gilang/", "icon": "fab fa-facebook" },
+      { "title": "Instagram", "link": "https://www.instagram.com/ganna_prasetya/", "icon": "fab fa-instagram" },
+      { "title": "My Github", "link": "https://github.com/GannaHap", "icon": "fab fa-github" }
+    ]
+  },
+  "myProject": [
+    { "title": "Moslem App", "srcImg": "/assets/img/simpleProjects/moslem-app.png", "link": "https://moslem-app.vercel.app/" },
+    { "title": "Data COVID-19", "srcImg": "/assets/img/simpleProjects/data-covid.png", "link": "https://covid-19-gules.vercel.app/" },
+    { "title": "Belajar", "srcImg": "/assets/img/simpleProjects/belajar.png", "link": "https://bit.ly/3lWi11E" },
+    { "title": "Face-Recognition", "srcImg": "/assets/img/simpleProjects/face-recognition.png", "link": "https://bit.ly/3cMvZPE" },
+    { "title": "ArtPicts - Login Page", "srcImg": "/assets/img/simpleProjects/art-picts.png", "link": "https://bit.ly/3rHEnVV" },
+    { "title": "NK-Perabot", "srcImg": "/assets/img/simpleProjects/nk-perabot.png", "link": "https://bit.ly/3184FG1" }
+  ],
+  "mySkills": [
+    { "iconLang": "/assets/img/skills/html.png", "title": "HTML" },
+    { "iconLang": "/assets/img/skills/css.png", "title": "CSS" },
+    { "iconLang": "/assets/img/skills/bootstrap.png", "title": "Bootstrap" },
+    { "iconLang": "/assets/img/skills/javascript.png", "title": "Javascript" },
+    { "iconLang": "/assets/img/skills/jquery.png", "title": "JQuery" },
+    { "iconLang": "/assets/img/skills/reactjs.png", "title": "ReactJS" },
+    { "iconLang": "/assets/img/skills/redux.png", "title": "Redux" },
+    { "iconLang": "/assets/img/skills/vscode.png", "title": "VSCode" },
+    { "iconLang": "/assets/img/skills/postman.png", "title": "Postman" }
+  ],
+  "sertificates": [
+    { "title": "Belajar Dasar Pemrograman Web", "srcImg": "/assets/img/sertificates/Dicoding-Basic-Programming.png", "link": "https://bit.ly/3mUz2tG" },
+    { "title": "Front End Web untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Front-End-Web-untuk-Pemula.PNG", "link": "https://bit.ly/3it3s61" },
+    { "title": "Belajar Membuat Aplikasi Back-End untuk Pemula", "srcImg": "/assets/img/sertificates/Dicoding-Back-End-untuk-Pemula.PNG", "link": "https://bit.ly/3v0DDgs" },
+    { "title": "Memulai Pemrograman Dengan Python", "srcImg": "/assets/img/sertificates/Dicoding-Python.png", "link": "https://bit.ly/32kpWwL" },
+    { "title": "Belajar Dasar Pemrograman JavaScript", "srcImg": "/assets/img/sertificates/Dicoding-Javascript.png", "link": "https://bit.ly/3tu3ux7" }
+  ],
+  "contact": [
+    { "title": "Gmail", "classIcon": "fal fa-envelope", "link": "https://t.me/GannaHap" },
+    { "title": "WhatsApp", "classIcon": "fab fa-whatsapp", "link": "https://wa.me/6289506125049" },
+    { "title": "Telegram", "classIcon": "fab fa-telegram-plane", "link": "https://t.me/GannaHap" }
+  ]
+}

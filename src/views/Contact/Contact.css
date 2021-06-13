@@ -1,0 +1,64 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.contact {
+  animation: fadeIn 1s ease;
+  margin-left: 240px;
+}
+
+.content-contact {
+  margin: 130px auto 40px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 3fr 7fr;
+  gap: 40px;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1100px) {
+  .content-contact {
+    grid-template-columns: 3fr 5fr;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .contact {
+    margin-left: 0;
+  }
+
+  .content-contact {
+    grid-template-columns: 3fr 6fr;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .content-contact {
+    grid-template-columns: 3fr 5fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-contact {
+    grid-template-columns: 3fr 4fr;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content-contact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content-contact {
+    padding: 0 0.5em;
+  }
+}

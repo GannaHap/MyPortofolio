@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 1em;
+  position: fixed;
+  top: 0;
+  left: 240px;
+  right: 0;
+  z-index: 3;
+  background-color: #f1f1f1;
+}
+
+.navbar h4 {
+  color: #2052c9;
+}
+
+.navbar.shadow {
+  transition: 0.5s all ease-in;
+  box-shadow: 7px 0 10px 0 rgba(0, 0, 0, 0.3);
+  z-index: 7;
+}
+
+.navbar i {
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar {
+    left: 0;
+  }
+
+  .navbar i {
+    font-size: 1.2rem;
+    color: #2052c9;
+    cursor: pointer;
+    display: block;
+  }
+}
